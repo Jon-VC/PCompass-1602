@@ -91,4 +91,27 @@ public class Perguntas {
                 break;
         }
     }
+
+    public void Pergunta5(){
+        int opcao = 0;
+        System.out.println("Qual o jogo do ano de 2018?");
+        System.out.println("1 - Sekiro");
+        System.out.println("2 - God of War");
+        System.out.println("3 - It Takes Two");
+        System.out.println("4 - Overwatch");
+        switch(opcao){
+            case 1:
+                Resultado.erros++;
+                break;
+            case 2:
+                Resultado.acertos++;
+                break;
+            case 3:
+                Resultado.erros++;
+                break;
+            case 4:
+                Resultado.erros++;
+                break;
+        }
+    }
 }
