@@ -71,20 +71,20 @@ public class Perguntas {
 
     public void Pergunta4(){
         int opcao = 0;
-        System.out.println("Qual o nome do grupo que luta contra o Império em Star Wars?");
-        System.out.println("1 - Aliança Rebelde");
-        System.out.println("2 - Time Rebelde");
-        System.out.println("3 - Grupo Rebelde");
-        System.out.println("4 - Tropa Rebelde");
+        System.out.println("Qual o nome do protagonista de Legend of Zelda?");
+        System.out.println("1 - Zelda");
+        System.out.println("2 - Ganon");
+        System.out.println("3 - Link");
+        System.out.println("4 - Navy");
         switch(opcao){
             case 1:
-                Resultado.acertos++;
+                Resultado.erros++;
                 break;
             case 2:
                 Resultado.erros++;
                 break;
             case 3:
-                Resultado.erros++;
+                Resultado.acertos++;
                 break;
             case 4:
                 Resultado.erros++;
