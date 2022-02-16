@@ -48,14 +48,14 @@ public class Perguntas {
 
     public void Pergunta3(){
         int opcao = 0;
-        System.out.println("Qual o nome do grupo que luta contra o Império em Star Wars?");
-        System.out.println("1 - Aliança Rebelde");
-        System.out.println("2 - Time Rebelde");
-        System.out.println("3 - Grupo Rebelde");
-        System.out.println("4 - Tropa Rebelde");
+        System.out.println("Qual o nome do do principal mascote da Nintendo?");
+        System.out.println("1 - Pikachu");
+        System.out.println("2 - Link");
+        System.out.println("3 - Kirby");
+        System.out.println("4 - Mario");
         switch(opcao){
             case 1:
-                Resultado.acertos++;
+                Resultado.erros++;
                 break;
             case 2:
                 Resultado.erros++;
@@ -64,7 +64,7 @@ public class Perguntas {
                 Resultado.erros++;
                 break;
             case 4:
-                Resultado.erros++;
+                Resultado.acertos++;
                 break;
         }
     }
