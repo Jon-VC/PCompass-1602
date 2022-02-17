@@ -2,10 +2,9 @@ import java.util.Scanner;
 
 public class Perguntas {
 
-    int opcao = 0;
-    Scanner s = new Scanner(System.in);
-
-    public void pergunta1(){
+    public static void pergunta1(){
+        int opcao = 0;
+        Scanner s = new Scanner(System.in);
         System.out.println("Qual o nome do grupo que luta contra o Império em Star Wars?");
         System.out.println("1 - Aliança Rebelde");
         System.out.println("2 - Time Rebelde");
@@ -29,7 +28,9 @@ public class Perguntas {
         }
     }
 
-    public void pergunta2(){
+    public static void pergunta2(){
+        int opcao = 0;
+        Scanner s = new Scanner(System.in);
         System.out.println("Qual o nome do primeiro jogo da série Souls da From Software?");
         System.out.println("1 - Dark Souls");
         System.out.println("2 - Demon Souls");
@@ -53,7 +54,9 @@ public class Perguntas {
         }
     }
 
-    public void pergunta3(){
+    public static void pergunta3(){
+        int opcao = 0;
+        Scanner s = new Scanner(System.in);
         System.out.println("Qual o nome do do principal mascote da Nintendo?");
         System.out.println("1 - Pikachu");
         System.out.println("2 - Link");
@@ -77,7 +80,9 @@ public class Perguntas {
         }
     }
 
-    public void pergunta4(){
+    public static void pergunta4(){
+        int opcao = 0;
+        Scanner s = new Scanner(System.in);
         System.out.println("Qual o nome do protagonista de Legend of Zelda?");
         System.out.println("1 - Zelda");
         System.out.println("2 - Ganon");
@@ -101,7 +106,9 @@ public class Perguntas {
         }
     }
 
-    public void pergunta5(){
+    public static void pergunta5(){
+        int opcao = 0;
+        Scanner s = new Scanner(System.in);
         System.out.println("Qual o jogo do ano de 2018?");
         System.out.println("1 - Sekiro");
         System.out.println("2 - God of War");
@@ -125,7 +132,9 @@ public class Perguntas {
         }
     }
 
-    public void pergunta6(){
+    public static void pergunta6(){
+        int opcao = 0;
+        Scanner s = new Scanner(System.in);
         System.out.println("Qual o nome civil do Batman?");
         System.out.println("1 - Bruce Wayne");
         System.out.println("2 - Berry Allen");

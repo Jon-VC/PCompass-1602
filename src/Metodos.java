@@ -1,15 +1,42 @@
 import java.util.Scanner;
 
 public class Metodos {
-    public void perguntaNome(){
+    public static void perguntaNome(){
         System.out.println("Digite seu nome: ");
         Scanner nome = new Scanner(System.in);
-        Resultado.usuario = nome.findInLine(String.valueOf(System.in));
+        Resultado.usuario = nome.next();
     }
 
-    public void mostrarResultados(){
+    public static void mostrarResultados(){
         System.out.println("Usuário: " + Resultado.usuario);
         System.out.println("Acertos: " + Resultado.acertos);
         System.out.println("Erros: " + Resultado.erros);
+    }
+
+    public static void fazPergunta(int i){
+        switch(i){
+            case 1:
+                Perguntas.pergunta1();
+                break;
+            case 2:
+                Perguntas.pergunta2();
+                break;
+            case 3:
+                Perguntas.pergunta3();
+                break;
+            case 4:
+                Perguntas.pergunta4();
+                break;
+            case 5:
+                Perguntas.pergunta5();
+                break;
+            case 6:
+                Perguntas.pergunta6();
+                break;
+        }
+    }
+
+    public static void perguntasERespostas(int a, int b){
+        System.out.println("Resposta da Pergunta " + a +": Alternativa " + b);
     }
 }
