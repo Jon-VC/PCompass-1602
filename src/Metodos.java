@@ -37,6 +37,6 @@ public class Metodos {
     }
 
     public static void perguntasERespostas(int a, int b){
-        System.out.println("Resposta da Pergunta " + a +": Alternativa " + b);
+        System.out.println("Resposta da Pergunta " + a + ": Alternativa " + b);
     }
 }

@@ -1,7 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-        int[] p = {1, 2, 3, 4, 5, 6};
         int[] v = {1, 2, 4, 3, 2, 1};
 
         Metodos.perguntaNome();
@@ -13,7 +12,7 @@ public class Main {
         Metodos.mostrarResultados();
 
         for (int i = 0; i < 6; i++){
-            int a = p[i];
+            int a = i + 1;
             int b = v[i];
             Metodos.perguntasERespostas(a, b);
         }
