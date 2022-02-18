@@ -15,6 +15,7 @@ public class Metodos {
         System.out.println("---------------------");
     }
 
+    //Metodo responsavel por chamar os modulos das perguntas
     public static void fazPergunta(int i){
         switch(i){
             case 1:
